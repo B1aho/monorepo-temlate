@@ -15,10 +15,5 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2022",
-    "baseUrl": ".",
-    "paths": {
-      "@repo/ui": ["packages/ui/src"],
-      "@repo/ui/*": ["packages/ui/src/*"]
-    }
   }
 }

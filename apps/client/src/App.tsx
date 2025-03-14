@@ -6,6 +6,7 @@ function App() {
     <>
       <div>
         <Button appName='client' />
+        <div className='bg-red-500 w-8'></div>
       </div>
     </>
   )
