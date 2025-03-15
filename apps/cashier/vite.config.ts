@@ -10,6 +10,7 @@ export default defineConfig({
     alias: {
       '@repo/ui': path.resolve(__dirname, '../../packages/ui/src'),
     },
+    extensions: [".ts", ".tsx", ".js", ".jsx"],
   },
   server: {
     port: 3001,

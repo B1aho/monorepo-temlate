@@ -5,5 +5,11 @@
     "**/*.ts",
     "**/*.tsx",
   ],
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "target": "ESNext",
+    "allowSyntheticDefaultImports": true,
+  },
   "exclude": ["node_modules"]
 }
