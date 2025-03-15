@@ -4,7 +4,9 @@
   "scripts": {
     "build": "turbo run build",
     "dev-client": "concurrently \"pnpm dev:ui\" \"pnpm dev:client\"",
+    "dev-cashier": "concurrently \"pnpm dev:ui\" \"pnpm dev:cashier\"",
     "dev:client": "turbo run dev --filter=client",
+    "dev:cashier": "turbo run dev --filter=cashier",
     "dev:ui": "turbo run dev --filter=@repo/ui",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
