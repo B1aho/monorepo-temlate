@@ -7,7 +7,6 @@ import path from 'path';
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    extensions: [".ts", ".tsx", ".js", ".jsx"],
     alias: {
       '@repo/ui': path.resolve(__dirname, '../../packages/ui/src'),
     },
