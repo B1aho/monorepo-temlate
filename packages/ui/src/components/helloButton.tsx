@@ -1,14 +1,17 @@
+import { Button } from "./ui/button.js";
+
 interface HelloButtonProps {
   appName: string;
 }
 
 export const HelloButton = ({ appName }: HelloButtonProps) => {
   return (
-    <button
-      className='p-2 bg-black text-white'
+    <Button
+      variant="destructive"
+      className='p-2 text-white'
       onClick={() => alert(`Hello from your ${appName} app!`)}
     >
       Tap!
-    </button>
+    </Button>
   );
 };

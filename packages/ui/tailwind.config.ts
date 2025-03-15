@@ -1,8 +1,9 @@
 import type { Config } from "tailwindcss";
 import sharedConfig from "@repo/tailwind-config";
 
-const config: Pick<Config, "prefix" | "presets" | "content" | "theme"> = {
+const config: Pick<Config, "prefix" | "presets" | "content" | "theme" | "darkMode"> = {
     content: ["./src/**/*.{tsx, jsx, js, ts}"],
+    darkMode: ["class"],
     presets: [sharedConfig],
     theme: {
         //Расширяем тему из пресета

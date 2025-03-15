@@ -1,5 +1,5 @@
 import './App.css'
-import { HelloButton } from "@repo/ui/helloButton";
+import { HelloButton } from "@repo/ui/components/helloButton";
 
 function App() {
   return (
