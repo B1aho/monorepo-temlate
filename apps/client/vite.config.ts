@@ -11,4 +11,8 @@ export default defineConfig({
       '@repo/ui': path.resolve(__dirname, '../../packages/ui/src'),
     },
   },
+  server: {
+    port: 3000,
+    host: 'localhost'
+  }
 })

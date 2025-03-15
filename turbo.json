@@ -16,6 +16,11 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "dev:ui": {
+      "dependsOn": [],
+      "cache": false,
+      "persistent": true
     }
   }
 }

@@ -1,12 +1,11 @@
 import './App.css'
-import { Button } from "@repo/ui/button";
+import { HelloButton } from "@repo/ui/helloButton";
 
 function App() {
   return (
     <>
       <div>
-        <Button appName='client' />
-        <div className='bg-red-500 w-8'></div>
+        <HelloButton appName='client' />
       </div>
     </>
   )
